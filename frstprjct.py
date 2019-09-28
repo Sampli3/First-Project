@@ -36,4 +36,4 @@ lamp_all = lamp_hour*6*30*price_kw                  #Стоимость элек
 electric_all = fridge+electric_range+kettle+lamp_all+tv+computer_price
 #Посчитаем общие траты за все коммунальные услиги.
 all = electric_all+all_water+const_price
-print('Уважаемый', name, ',', 'примерная стоимость ваших коммунальных услуг за месяц составит:', all, 'рублей.')
+print('Уважаемый', name, ',', 'примерная стоимость ваших коммунальных услуг за месяц составит:', '{:.2f}'.format(all), 'рублей.')
